@@ -1,0 +1,125 @@
+{
+    "intents": [
+{"tag":"greetings", 
+ "patterns": ["Hi, there", "How are you?", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "Hi"], 
+ "responses": ["Hi", "Yes, how can I help you?", "Hey", "Hello", "What's up?", "Hola"]},
+        
+{"tag":"goodbye", 
+ "patterns": ["Bye", "See you later", "Bye bye", "Ok bye", "Goodbye"], 
+ "responses": ["See you later!", "Have a nice day!", "Sure bye", "Later dude", "Peace out", "Have a pleasant day!"]},
+        
+{"tag":"Thanks", 
+ "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"], 
+ "responses": ["Happy to help", "Anytime!", "My pleasure", "You are welcome", "Sure dude"]},
+        
+{"tag":"no answer", 
+ "patterns": [], 
+ "responses": ["Sorry, can't understand you!", "Please give me more info", "Not sure I understand"] },
+        
+{"tag":"name", 
+ "patterns": ["What is your name?", "What's your name?", "Tell me your name", "Who are you?", "Tell me about yourself"], 
+ "responses": ["I am WTBot.", "My name is WTBot", "I am WTB for short", "I am WTBot; my friends call me WB", "WTBot is my name"]},
+
+{"tag":"fee or cost or price", 
+ "patterns": ["What is the fee for the fellowship?", "How much will the fellowship cost?", "How much will I pay for the fellowship"], 
+ "responses": ["The Women Techsters Fellowship is tuition-free."]},      
+        
+{"tag":"timeline or duration or period", 
+ "patterns": ["What is the fellowship timeline?", "How long will the fellowship last?", "What is the duration of the fellowship", "How many months will the fellowship last?"], 
+ "responses": ["Six months of virtual intensive training and six months of internship (for qualified beneficiaries)."]},
+        
+{"tag":"language", 
+ "patterns": ["What is the language of instruction for the fellowship?", "What will be the language of instruction of the fellowship ?", "Which language will be used for communication in the fellowship?"], 
+ "responses": ["English is the official language. All instructions, applications, trainings and results will be delivered in English. We encourage all applicants to have at least basic level of English porficiency."]},
+        
+{"tag":"virtual or remote or physical or online training", 
+ "patterns": ["Is the fellowship physical or virtual?", "Will the fellowship be online?", "Will classes be online or physical?", "Is the fellowship online or physical?"], 
+ "responses": ["The training is viirtual (instructor-led). A virtual instructor-led training (VILT) is a type of remote training delivered through an onlie platform with an instructor leading the session in real-time. Participants join the session from their own devices, enabling real-time interaction, group discussions and activites."]}, 
+        
+{"tag":"hours per day or hours daily or weekly", 
+ "patterns": ["How many hours do I need to commit to learning per day?", "How many hours per day will the training be?", "How many hours per week will the training hold?", "How many hours per week do I need to commit to the training?"], 
+ "responses": ["Minimum of 5 hours per day, 25 hours per week."]}, 
+        
+{"tag":"internship", 
+ "patterns": ["Can I get an internship opportunity after the fellowship?", "Will I be placed on internship after the fellowship?"], 
+ "responses": ["There is an available internship opportunity, but it is limited in availability. However, participating in the intensive 6-month training program will equip you with valuable skills that can enable you to access further opportunities on your own."]}, 
+        
+{"tag":"age", 
+ "patterns": ["Which age range can apply for the fellowship?", "What should be the age range of applicants of the fellowship?", "Is there age limit for applicants?"], 
+ "responses": ["The fellowship is for young girls and women within age range of 16 and 40."]},         
+        
+{"tag":"gender or sex", 
+ "patterns": ["Is the fellowship for only females?", "Can men and boys also apply for the fellowship?", "Is the fellowship open to all genders?"], 
+ "responses": ["The fellowship is only for females (young girls and women), however there are some of our programs that are not gender-based."]}, 
+        
+{"tag":"Countries of operation or country or non_Nigerian", 
+ "patterns": ["Is the fellowship open for all African countries?", "Can a non_Nigerian apply for the fellowship?", "Which countries are eligible for the fellowship?"], 
+ "responses": ["The fellowship is available in 22 countries - Nigeria, Kenya, Zimbabwe, Botswana, Egypt, South-Africa, Ethiopia, Democratic Republic of Congo, Morocco, Madagascar, Sierra Leone, Uganda, Mozambique, Tanzania, Sudan, Liberia, Algeria, Angola, Rwanda, Zambia and Gambia"]}, 
+        
+{"tag":"skills or learning tracks or courses", 
+ "patterns": ["What are the available courses?", "What skills can I learn in the fellowship?", "What are the available learning tracks?"], 
+ "responses": ["The availbale learning tracks are Software Development (Frontend and Backend), Product Design, Cybersecurity, Mobile app Development, Product Management, Blockchain Technology, data science & AI., 3D animation and Mixed Reality (AR & VR)"]},  
+        
+{"tag":"application link", 
+ "patterns": ["I am not able to access the application link, what do i do?", "Why is application link not working?"], 
+ "responses": ["Ensure you have a good internet connection, try another browser, give it time as quite a number of people are trying the link at the same time. Also, don't forget the first stage of application runs for a month so take your time to fill the form correctly and perfectly."]}, 
+        
+{"tag":"feedback or shortlisted or accepted",
+ "patterns": ["How long do I have to wait to get feedback on my application?", "When should I expect feedback after submitting application?", "How will I know if I am accepted or shortlisted?"], 
+ "responses": ["The application process is in three stages. The first stage of application will run for one month while succesful applicants will be contacted via mail."]}, 
+        
+{"tag":"information or about", 
+ "patterns": ["What is the Women Techsters fellowship about?", "Give me information abou the fellowship?"], 
+ "responses": ["Women Techsters Fellowship is a 1-year virtual learning program delivered through 6 months of intensive training, a 6-month paid internship and enrollment into a mentorship program to equip women with skills to build tech careers and tech-enabled businesses at zero cost."]},     
+
+{"tag":"apply for fellowship", 
+ "patterns": ["How do I apply for the fellowship?", "How do I apply?"], 
+ "responses": ["When it is time for application, an application link will be published via our social media platforms and website. Also, a PDF containing the entire application will be provided."]}, 
+
+{"tag":" upload video on YouTube", 
+ "patterns": ["How do I upload my video on YouTube?", "I'm having problem with uploading my videos on YouTube"], 
+ "responses": ["First, you need to record a 2 minutes video stating why you deserve a spot in the program. Create a YouTube account and sign in, go to upload video and look for a plus icon. Upload your video and click next till you get to visibility. Once you get to visibility, check the 'unlisted' icon and save. After saving, copy the link and upload in your form."]}, 
+
+{"tag":"needs or have in place or basic requirements", 
+ "patterns": ["What do I need to have in place before applying for the fellowship?", "What do I need for the fellowship?", "What are the requirements for the fellowship?"], 
+ "responses": ["Basic requirements include; a working laptop, active Email account,two minutes motivation video ."]}, 
+
+{"tag":"internship", 
+ "patterns": ["Can I get an internship opportunity after the fellowship?", "Will I be placed on internship after the fellowship?"], 
+ "responses": ["There is an available internship opportunity, but it is limited in availability. However, participating in the intensive 6-month training program will equip you with valuable skills that can enable you to access further opportunities on your own."]}, 
+
+{"tag":"morning and evening session", 
+ "patterns": ["Will there be evening session during the fellowship?"], 
+ "responses": ["No. The classes hold in the morning."]},
+
+{"tag":"more than one learning track or course", 
+ "patterns": ["Can I apply for more than one learning track?"], 
+ "responses": ["You cannot apply for more than one learning track."]}, 
+
+{"tag":"criteria for selection", 
+ "patterns": ["What are the criteria for selection?"], 
+ "responses": ["Basic digital literacy, access to internet, electricity and a computer."]}, 
+
+{"tag":"bootcamp prerequisite", 
+ "patterns": ["Can I apply the fellowship without going through the bootcamp?"], 
+ "responses": ["Absolutely. Participating in the bootcamp is not a prerequisute."]}, 
+
+{"tag":"bootcamp", 
+ "patterns": ["Can someone in the bootcamp apply for the fellowship?"], 
+ "responses": ["Absolutely."]}, 
+
+{"tag":"university degree ", 
+ "patterns": ["Do I need a university degree before I can apply for the fellowship?"], 
+ "responses": ["No, you don't need a university degree before applying."]}, 
+
+{"tag":"other benefits apart from technical training", 
+ "patterns": ["Are there other benefits apart from the technical training?"], 
+ "responses": ["Definitely. The Women Tecsters Fellowship ia an all-encompassing training. In addition to the technical training, beneficiaries are also trained in soft skills that equip them with the neccesary skills to thrive in the tech ecosystem. They are also given access to the Women Techsters Community of diverse yet like-minded women across Africa and presented with mentorship opportunities with industry experts."]}, 
+
+{"tag":"undergraduates or still in university or non-graduate", 
+ "patterns": ["Can undergraduates apply for the fellowship?", "I'm still in the university, can I apply?", "I'm not a gradaute, can I apply?"], 
+ "responses": ["Absolutely."]}
+
+    ]
+}
+

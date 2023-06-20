@@ -1,0 +1,103 @@
+{
+    "intents": [
+{"tag":"greetings", 
+ "patterns": ["Hi, there", "How are you?", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "Hi"], 
+ "responses": ["Hi", "Yes, how can I help you?", "Hey", "Hello", "What's up?", "Hola"]},
+        
+{"tag":"goodbyeB", 
+ "patterns": ["Bye", "See you later", "Bye bye", "Ok bye", "Goodbye"], 
+ "responses": ["See you later!", "Have a nice day!", "Sure bye", "Later dude", "Peace out", "Have a pleasant day!"]},
+        
+{"tag":"ThanksB", 
+ "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"], 
+ "responses": ["Happy to help", "Anytime!", "My pleasure", "You are welcome", "Sure dude"]},
+        
+{"tag":"no answerB", 
+ "patterns": [], 
+ "responses": ["Sorry, can't understand you!", "Please give me more info", "Not sure I understand"] },
+        
+{"tag":"nameB", 
+ "patterns": ["What is your name?", "What's your name?", "Tell me your name", "Who are you?", "Tell me about yourself"], 
+ "responses": ["I am WTBot.", "My name is WTBot", "I am WTB for short", "I am WTBot; my friends call me WB", "WTBot is my name"]},
+
+{"tag":"aboutB", 
+ "patterns": ["What is the Women Techsters Bootcamp?", "Explain Women Techsters Bootcamp?"], 
+ "responses": ["The Women Techsters Bootcamp is a a 3-week introductory class for girls and women aged between 16 to 40 years in one of five learning tracks – Product Design, Product Management, Software Development, Data Science, and Cybersecurity. It serves as a guide for participants to determine their preferred career choices"]},
+
+{"tag":"feesB", 
+ "patterns": ["What is the fee for the bootcamp?", "How much will the bootcamp cost?", "How much will I pay for the bootcamp"], 
+ "responses": ["The Women Techsters Bootcamp is tuition-free."]},
+
+{"tag":"timelineB", 
+ "patterns": ["What is the bootcamp timeline?", "How long will the bootcamp last?", "What is the duration of the bootcamp", "How many months will the bootcamp last?"], 
+ "responses": ["three weeks of virtual intensive training"]},
+
+{"tag":"languageB", 
+ "patterns": ["What is the language of instruction for the bootcamp?", "What will be the language of instruction of the bootcamp ?", "Which language will be used for communication in the bootcamp?"], 
+ "responses": ["English is the official language. All instructions, applications, trainings and results will be delivered in English. We encourage all applicants to have at least basic level of English porficiency."]},
+        
+{"tag":"training modeB", 
+ "patterns": ["Is the bootcamp physical or virtual?", "Will the bootcamp be online?", "Will classes be online or physical?", "Is the bootcamp online or physical?"], 
+ "responses": ["The training is virtual (instructor-led). A virtual instructor-led training (VILT) is a type of remote training delivered through an onlie platform with an instructor leading the session in real-time. Participants join the session from their own devices, enabling real-time interaction, group discussions and activites."]},
+
+{"tag":"time commitmentB", 
+ "patterns": ["How many hours do I need to commit to learning per day?", "How many hours per day will the training be?", "How many hours per week will the training hold?", "How many hours per week do I need to commit to the training?"], 
+ "responses": ["Minimum of 4 hours per day"]}, 
+        
+{"tag":"internshipB", 
+ "patterns": ["Can I get an internship opportunity after the bootcamp?", "Will I be placed on internship after the bootcamp?"], 
+ "responses": ["No. However, participating in the bootcamp will equip you with valuable skills that can enable you to access further opportunities on your own."]},  
+
+{"tag":"ageB", 
+ "patterns": ["Which age range can apply for the bootcamp?", "What should be the age range of applicants of the bootcamp?", "Is there age limit for applicants?"], 
+ "responses": ["The bootcamp is for young girls and women within age range of 16 and 40."]},         
+        
+{"tag":"genderB", 
+ "patterns": ["Is the bootcamp for only females?", "Can men and boys also apply for the bootcamp?", "Is the bootcamp open to all genders?"], 
+ "responses": ["The bootcamp is only for females (young girls and women), however there are some of our programs that are not gender-based."]}, 
+        
+{"tag":"eligible countriesB", 
+ "patterns": ["Is the bootcamp open for all African countries?", "Can a non_Nigerian apply for the bootcamp?", "Which countries are eligible for the bootcamp?"], 
+ "responses": ["The bootcamp is available in 22 countries - Nigeria, Kenya, Zimbabwe, Botswana, Egypt, South-Africa, Ethiopia, Democratic Republic of Congo, Morocco, Madagascar, Sierra Leone, Uganda, Mozambique, Tanzania, Sudan, Liberia, Algeria, Angola, Rwanda, Zambia and Gambia"]}, 
+
+{"tag":"learning tracksB", 
+ "patterns": ["What are the available courses?", "What skills can I learn in the bootcamp?", "What are the available learning tracks?"], 
+ "responses": ["The available learning tracks are Product Design, Product Management, Software Development, Data Science, and Cybersecurity."]},  
+        
+{"tag":"linkB", 
+ "patterns": ["I am not able to access the application link, what do i do?", "Why is application link not working?"], 
+ "responses": ["Ensure you have a good internet connection, try another browser, give it time as quite a number of people are trying the link at the same time. Also, don't forget the first stage of application runs for a month so take your time to fill the form correctly and perfectly."]}, 
+        
+{"tag":"feedbackB",
+ "patterns": ["How long do I have to wait to get feedback on my application?", "When should I expect feedback after submitting application?", "How will I know if I am accepted or shortlisted?"], 
+ "responses": ["The application process is in three stages. The first stage of application will run for one month while succesful applicants will be contacted via mail."]}, 
+           
+{"tag":"applicationB", 
+ "patterns": ["How do I apply for the bootcamp?", "How do I apply?"], 
+ "responses": ["When it is time for application, an application link will be published via our social media platforms and website."]}, 
+
+{"tag":"requirementsB", 
+ "patterns": ["What do I need to have in place before applying for the bootcamp?", "What do I need for the bootcamp?", "What are the requirements for the bootcamp?"], 
+ "responses": ["Basic requirements include; a working laptop, active Email account,two minutes motivation video ."]}, 
+
+{"tag":"sessionB", 
+ "patterns": ["Will there be evening session during the bootcamp?"], 
+ "responses": ["No. The classes hold in the morning."]},
+
+{"tag":"max trackB", 
+ "patterns": ["Can I apply for more than one learning track?"], 
+ "responses": ["You cannot apply for more than one learning track."]}, 
+
+{"tag":"selection criteriaB", 
+ "patterns": ["What are the criteria for selection?"], 
+ "responses": ["Basic digital literacy, access to internet, electricity and a computer."]}, 
+
+{"tag":"university degreeB", 
+ "patterns": ["Do I need a university degree before I can apply for the bootcamp?"], 
+ "responses": ["No, you don't need a university degree before applying."]}, 
+
+{"tag":"degree eligibilityB", 
+ "patterns": ["Can undergraduates apply for the bootcamp?", "I'm still in the university, can I apply?", "I'm not a gradaute, can I apply?"], 
+ "responses": ["Absolutely."]}
+    ]
+}
