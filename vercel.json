@@ -1,13 +1,15 @@
 {
-  "functions": {
-    "api/*.py": {
-      "runtime": "vercel-python@0.27.1"
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/api/:1"
-    }
-  ]
+    "version": 2,
+    "builds": [
+        {
+            "src": "./app.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
 }
